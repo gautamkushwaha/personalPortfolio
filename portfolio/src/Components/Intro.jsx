@@ -1,12 +1,14 @@
 import React from "react";
 import Gautam from "../assests/img/gautam.jpeg";
+import Header from "./Header";
 export default function Intro() {
   return (
-    <div className="bg-black">
-      <div className="max-w-[1240px] h-[500px] mx-auto md:flex flex-cols-3 justify-between py-[100px]">
-        <div className="w-1/3 mx-[60px]">
-          <h1 className="text-[20px] font-bold text-white">
-            <img className="" src={Gautam} />
+    <div className=" w-[100vw] bg-black relative ">
+     
+      <div className="w-[100%] my-[150px] flex-col flex md:flex-row items-center justify-between ">
+        <div className="md:w-1/3  md:mx-[60px]">
+          <h1 className=" font-bold text-white">
+            <img className=" w-[70%] md:w-[70%] h-[70%] md:h-[70%] mb-5 mx-auto" src={Gautam} />
           </h1>
         </div>
         <div className="w-2/3 mx-[60px]">

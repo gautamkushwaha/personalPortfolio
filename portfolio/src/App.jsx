@@ -7,15 +7,16 @@ import Experience from './Components/Experience';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
 
+
 export default function App() {
   return (
-    <>
-  <Header/>
+    <div className='bg-black relative'>
+   <Header />
   <Intro/>
   <Cards/>
   <Experience/>
   <Projects/>
   <Footer/>
-  </>
+  </div>
   )
 }

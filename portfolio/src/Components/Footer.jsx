@@ -10,10 +10,10 @@ import {
 
 export default function Footer() {
     return (
-        <div className="w-[100%] h-[200px] bg-black ">
-            <div className="w-[100vw] bg-black">
+        <div className="w-[100vw]">
+            <div className="w-[100%]">
                 <div className=" flex justify-around p-2">
-                    <div className="mx-100 ">
+                    <div className="mx-100 mt-[50px]">
                         <ul className="flex text-white">
                             <li className="m-3">Home</li>
                             <li className="m-3"> Project</li>
@@ -23,9 +23,9 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className=" w-[100vw] h-[125px] border border-white bg-black">
+            <div className=" w-[100vw] shadow shadow-sky-50 p-5 m-1">
         
-                    <div className=" flex justify-around mt-10 ">
+                    <div className=" flex justify-around ">
                         <uL className="flex  text-center text-white gap-5">
                             <FaFacebookSquare size={30} className="text-white" />
                             <FaInstagram size={30} className="text-white" />

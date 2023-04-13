@@ -3,10 +3,10 @@ import ironMan from "../assests/img/ironMan.jpeg";
 
 export default function Header() {
   return (
-    <div className="w-[100vw] bg-black">
-      <div className=" flex justify-around p-2">
-        <div>
-          <img className="w-10 m-1" src={ironMan} />
+    <div className="w-[100vw] bg-black fixed top-0 bg-black z-50">
+      <div className="  w-[100%] flex flex-row justify-around p-2 ">
+        <div className="items-center md:">
+          <img className="w-10 m-1" src={ironMan}  />
         </div>
         <div className="mx-100 ">
           <ul className="flex text-white">
