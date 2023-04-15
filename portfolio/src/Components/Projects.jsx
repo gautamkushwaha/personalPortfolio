@@ -37,13 +37,13 @@ export default function Projects() {
                         <p className="text-white "> clients</p>
 
                     </div>
-                     <div className=" col-span-2 w-[100%]   shadow shadow-sky-50 flex-col flex md:flex-row justify-around  p-2 md:p-5">
+                     <div className=" bg-slate-800 col-span-2 w-[100%]   shadow shadow-sky-50 flex-col flex md:flex-row justify-around  p-2 md:p-5">
                         <div className="md:w-[50%] w-[100%] flex-col justify-center ">
                          <h1 className="text-white text-4xl">Lets Work Together on Your Next Project</h1>
                          <p className="text-white ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, beatae?</p>
                         </div >
                         <div className=" my-5">
-                            <button className='bg-[#ff0000] text-black rounded  p-3 '>Contact</button>
+                            <button className='border-2 border-white text-black bg-blue-300 rounded  p-3 '>Contact</button>
                         </div>
                        
                     </div>

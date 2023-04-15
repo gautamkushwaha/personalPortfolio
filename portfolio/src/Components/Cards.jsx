@@ -12,7 +12,7 @@ export default function Cards() {
             <div className=" w-[90%] m-auto gap-8 flex-col flex md:flex-row flex-5 items-center justify-center ">
                 {/* cards start here */}
 
-                <div className="w-[80%] md:w-[80%] md:w-[50%] m-auto md:w-1/5 shadow shadow-sky-100 mb-[20px] mx-auto md:mx-[10px]">
+                <div className="w-[80%] md:w-[50%] md:w-[50%] m-auto md:w-1/5 shadow shadow-sky-100 mb-[20px] mx-auto md:mx-[10px]">
                     <div className=" md:w-[75%] my-6 item-blue-500 ml-[20px]">
                         <CgWebsite size={50} className="text-white " />
                     </div>

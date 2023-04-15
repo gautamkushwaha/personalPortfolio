@@ -8,7 +8,7 @@ export default function Intro() {
       <div className="w-[100%] my-[150px] flex-col flex md:flex-row items-center justify-between ">
         <div className="md:w-1/3  md:mx-[60px]">
           <h1 className=" font-bold text-white">
-            <img className=" w-[70%] md:w-[70%] h-[70%] md:h-[70%] mb-5 mx-auto" src={Gautam} />
+            <img className=" w-[90%] md:w-[70%] h-[80%] md:h-[70%] mb-5 mx-auto" src={Gautam} />
           </h1>
         </div>
         <div className="w-2/3 mx-[60px]">
